@@ -1,6 +1,18 @@
-# Learning_DataScience_Beginner
+# Learning DataScience for Beginner: 6-Month Data Science Learning Course
 
-6-Month Data Science Learning Course
+## Prompt
+
+```
+Create an outline for an Data Science Learning Course.
+
+Course should go over 6 Month and should include all important topics to become a professional data science and data analytics developer.
+
+Create the schedule with list of topice for each week.
+Add a descripton of the topics and sample projects.
+Add sample questions and answers for a final test
+```
+
+## 
 
 ## Month 1: Foundations of Data Science
 
