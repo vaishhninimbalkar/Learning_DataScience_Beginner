@@ -24,8 +24,9 @@ Below is a **24-week** schedule (6 months) with weekly topics, brief description
 **Sample Projects/Programs (Code Examples)**
 
 1. **Check Environment & Print Versions**  
-   A simple script to check your Python environment and print library versions.
-   ```python
+   
+A simple script to check your Python environment and print library versions.
+```python
    import sys
    import numpy as np
    import pandas as pd
@@ -33,23 +34,34 @@ Below is a **24-week** schedule (6 months) with weekly topics, brief description
    print("Python version:", sys.version)
    print("NumPy version:", np.__version__)
    print("Pandas version:", pd.__version__)
+```
+
 Matrix Multiplication with NumPy
 Demonstrates basic linear algebra operations.
 
 import numpy as np
 
 # Create two matrices
+
+```
 A = np.array([[1, 2], [3, 4]])
 B = np.array([[5, 6], [7, 8]])
+```
 
 # Matrix multiplication
+
+```
 C = np.dot(A, B)
 print("Matrix A:\n", A)
 print("Matrix B:\n", B)
 print("Matrix C = A x B:\n", C)
+
+```
+
 Basic Probability Calculation
 Calculates simple probabilities for coin toss outcomes.
 
+```
 import random
 
 def coin_toss(num_tosses=1000):
@@ -62,6 +74,9 @@ def coin_toss(num_tosses=1000):
 
 probability_heads = coin_toss()
 print(f"Estimated probability of heads: {probability_heads}")
+
+```
+
 Data Distribution Plot
 Show how to visualize a random distribution (e.g., normal distribution) using Matplotlib.
 
